@@ -1,0 +1,31 @@
+.Ccppstyle{
+    width: 100%; height: 600px;
+    background-color: rgb(54, 62, 80);
+    color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.Ccppstyle ul li{
+    list-style: cross-fade();
+    font-family: 'Courier New', Courier, monospace;
+    /* text-transform: uppercase; */
+    color: rgb(12, 11, 11);
+}
+
+.Ccppstyle ul li a{
+    color: whitesmoke;
+    
+} 
+
+input[type=submit]{
+    background-color: rgb(37, 78, 59);
+    border:none;
+    color: aliceblue;
+    padding: 8px 36px;
+    text-decoration: none;
+    border: 1px solid rgb(49, 26, 26);
+    margin: 5px 4px;
+    cursor: pointer;
+}

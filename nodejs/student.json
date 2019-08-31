@@ -1,0 +1,14 @@
+[
+    {
+      "emp_id" : "101",
+      "emp_name" : "Mike",
+      "emp_addr" : "123 California, USA",
+      "designation" : "Editor"
+    },
+    {
+      "emp_id" : "102",
+      "emp_name" : "Jacob",
+      "emp_addr" : "456 Log Angelis, USA",
+      "designation" : "Chief Editor"
+    }
+  ]

@@ -1,0 +1,77 @@
+*{margin: 10;padding: 10;}
+.Menustyle{
+    width:100%;
+    height: 75px;
+    background-color: rgb(25, 51, 54);
+    border-radius: 5%;
+}
+.Menustyle ul{
+    height:20px;
+    display: flex;      
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+
+.Menustyle ul li{
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    color: rgb(212, 202, 202);
+}
+
+.Menustyle ul li a{
+    color: whitesmoke;
+    
+}
+/* from here copied from digout */
+
+li a,.dropbtn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+}
+li a:hover, .dropdown:hover {
+    background-color: #4b355d58;
+    height: 10px;
+}
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+} 
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+.dropdown-menu{
+    /* border-block-end: #70455b; */
+    /* align-content: center; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    display: inline-block;
+    z-index: 1; 
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    box-shadow: #70455b;
+    padding: 12px 16px;z-index: 1;
+}
+
+.Menustyle img{
+    width:100%;
+    height:50px;
+    display: block;
+  
+  }
+  .Head{
+      font-size: 35px;
+      justify-content: last baseline;
+  }

@@ -1,0 +1,15 @@
+.Signin{
+    position: ;
+    bottom: 125px;
+    left: -100px;
+    opacity:0.3 ;
+    height: 100px;
+    align-content: center;
+    min-block-size: 500cm;
+    margin: 50%;
+    padding-block-start: 50%;
+}
+
+.Pad{
+    padding: 6%;
+}

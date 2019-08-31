@@ -1,0 +1,16 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "A basic nodejs Server application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Nitin Mishra <imnitin28@yahoo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonfile": "^5.0.0"
+  }
+}

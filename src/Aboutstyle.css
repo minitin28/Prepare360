@@ -1,0 +1,23 @@
+.Aboutstyle{
+    width: 100%; height: 600px;
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Aboutstyle{
+    position: absolute;
+    bottom: 125px;
+    left: -100px;
+    opacity:0.3 ;
+    height: 100px;
+    align-content: center;
+    min-block-size: 500cm
+}
+.Aboutstyle img{
+    width: 100%;
+    height:100%;
+    display: block;
+}
